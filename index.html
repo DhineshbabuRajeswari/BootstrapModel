@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RetroSnail</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" integrity="sha384-4LISF5TTJX/fLmGSxO53rV4miRxdg84mZsxmO8Rx5jGtp/LbrixFETvWa5a6sESd" crossorigin="anonymous">
+    <link rel="stylesheet" href="Scripts/RetroSnail.css">
+</head>
+<body>
+  <div class="nav-div">
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid" id="navbox">
+
+            <div class="navLeft">
+                <a class="navbar-brand" href="#" id="reslogo">
+                <img src="Assets/Icons/Logo.png" alt="Logo" width="75px" height="75px">RetroSnail
+                </a>
+                <button class="navbar-toggler tog-btn" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+
+            <div class="navRight">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-2 mb-lg-0 d-flex justify-content-around mynav">
+                        <li class="nav-item">
+                        <a class="nav-link" href="#Caro-imgs">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#about-page">ABOUT</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#quantity-services">SERVICE</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#mymenu">MENU</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            PAGES
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item text-danger" href="#reviews">Reviews</a></li>
+                            <li><a class="dropdown-item text-danger" href="#table">Bookings</a></li>
+                        </ul>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#foot-footer">CONTACT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#table"><button class="bookbtn btn">BOOK A TABLE</button></a>
+                        </li>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+      </nav>
+    </div>  
+
+    <button class="upbtn">
+      <a href="#Caro-imgs">
+        <img src="Assets/Reviews/up-arrow.png" alt="" width="35px" height="35px">
+      </a>
+    </button>
+  
+    <div data-bs-ride="carousel" id="Caro-imgs">
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            </div>
+            <div class="carousel-inner ">
+              <div class="carousel-item active ">
+                <img src="Assets/Background/Img1.jpg" class="d-block w-100 opacity-75" alt="...">
+                <div class="carousel-caption d-none d-md-block text-mid">
+                  <h5>Bakes & Sweets</h5>
+                  <p>Elevate your moments with our enchanting delights, turning ordinary times into extraordinary experiences filled with indulgent flavors and delightful sweetness.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="Assets/Background/Img2.jpg" class="d-block w-100 opacity-75" alt="...">
+                <div class="carousel-caption d-none d-md-block text-mid">
+                  <h5>The Kigs Burger</h5>
+                  <p>SJuicy grilled patties, melted cheese, and fresh toppings make burgers a delicious explosion of flavors.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="Assets/Background/Img3.jpg" class="d-block w-100 opacity-75" alt="...">
+                <div class="carousel-caption d-none d-md-block text-mid">
+                  <h5>Chinese Cuisines</h5>
+                  <p>Chinese cuisine, deeply rooted in history and tradition, diligently preserves its authentic culinary essence.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="Assets/Background/Img4.jpg" class="d-block w-100 opacity-75" alt="...">
+                <div class="carousel-caption d-none d-md-block text-mid">
+                  <h5>Pizza, A Timeless Culinary Delight</h5>
+                  <p>combination of savory tomato sauce, melted cheese, and a variety of delectable toppings, all nestled atop a deliciously thin or doughy crust</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="Assets/Background/Img5.jpg" class="d-block w-100 opacity-75" alt="...">
+                <div class="carousel-caption d-none d-md-block text-mid">
+                  <h5>Your Spice Hut</h5>
+                  <p>Awakening the taste buds with a tantalizing heat that brings depth and excitement to every savory bite</p>
+                </div>
+              </div>
+            </div>
+            
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+      </div>
+        <p id="about-page"></p>
+        
+        <div class="container-fluid about" id="">
+            <div class="row mb-4">
+                <div class="col d-flex justify-content-around">
+                    <span id="AboutTitle">ABOUT US</span>
+                </div>
+            </div>
+                
+            <div class="row  aboutbg">
+                <div class="col-md-6 about-img-div p-2">
+                    <img src="Assets/About/About1.jpg" alt="" id="aboutimg" class="img-thumbnail">
+                </div>
+                <div class="col-md-6">
+                    <h3 class="p-4 power">Welcome to <i class="bi bi-egg-fill"></i> RetroSnail</h3>
+                    <p class="m-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint ex maxime corrupti saepe quos molestias itaque explicabo consequatur porro odit</p>
+                    <p class="m-4">Voluptas non assumenda libero sequi minima nam nobis sapiente, omnis molestias odit vel neque id, doloribus pariatur Lorem ipsum dolor sit amet. Ex maxime corrupti saepe quos</p>
+                    <div class="p-4 readmorebtn">
+                        <h4><span>100</span> Years Of Experience</h4>
+                        <h4><span>30+</span> Star Chef's</h4>
+                        <button class="btn">Read More</button>
+                    </div>
+                    <p id="quantity-services"></p>
+                </div>
+                
+            </div>
+        </div>
+        
+        <div class="container mb-5 quantity" id="">
+          <div class="row row-cols-sm-1 row-cols-md-2 row-cols-lg-2 row-cols-xl-4 row-cols-xxl-4">
+            <div class="col card-cont">
+              <i class="bi bi-arrow-through-heart-fill"></i>
+              <h4 class="mt-4">Master Chef's</h4>
+              <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, consectetur</p>
+            </div>
+            <div class="col card-cont">
+              <i class="bi bi-cup-hot-fill"></i>
+              <h4 class="mt-4">Quality Food</h4>
+              <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, error.</p>
+            </div>
+            <div class="col card-cont">
+              <i class="bi bi-cart-check-fill"></i>
+              <h4 class="mt-4">Online Order</h4>
+              <p class="mt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, perspiciatis!</p>
+            </div>
+            <div class="col card-cont">
+              <i class="bi bi-headset"></i>
+              <h4 class="mt-4">24/7 Service</h4>
+              <p class="mt-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero, assumenda!</p>
+            </div>
+          </div>
+          <p id="mymenu"></p>
+        </div>
+
+        <div class="container-fluid menubox" id="">
+          <div class="row mt-5 mb-5">
+            <div class="col d-flex justify-content-around">
+              <h2 class="menutitle">OUR POPULAR DISHES</h2>
+            </div>
+          </div>
+
+          <div class="retro-row row row-cols-xl-3 row-cols-1 row-cols-lg-3 row-cols-md-2  row-cols-sm-1 row-cols-xxl-3 justify-content-around">
+
+            <div class="col mb-4 d-flex justify-content-around retro-col">
+              <div class="card" style="width: 18rem;">
+                <img src="Assets/Menu/Crab Phyllo Cups.jpeg" class="card-img-top card-img-retro img-thumbnail p-2" alt="...">
+                <div class="card-body card-body1">
+                  <h5 class="card-title">Crab Phyllo Cups</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Add to Cart</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col mb-4 d-flex justify-content-around retro-col">
+              <div class="card" style="width: 18rem;">
+                <img src="Assets/Menu/Crab Rangoon.jpeg" class="card-img-top card-img-retro img-thumbnail p-2" alt="...">
+                <div class="card-body card-body1">
+                  <h5 class="card-title">Crab Rangoon</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Add to Cart</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col mb-4 d-flex justify-content-around retro-col">
+              <div class="card" style="width: 18rem;">
+                <img src="Assets/Menu/Crab Sushi Rolls.jpeg" class="card-img-top card-img-retro img-thumbnail p-2" alt="...">
+                <div class="card-body card-body1">
+                  <h5 class="card-title">Crab Sushi Rolls</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Add to Cart</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col mb-4 d-flex justify-content-around retro-col">
+              <div class="card" style="width: 18rem;">
+                <img src="Assets/Menu/Crab Tostadas.jpeg" class="card-img-top card-img-retro img-thumbnail p-2" alt="...">
+                <div class="card-body card-body1">
+                  <h5 class="card-title">Crab Tostadas</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Add to Cart</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col mb-4 d-flex justify-content-around retro-col">
+              <div class="card" style="width: 18rem;">
+                <img src="Assets/Menu/Crab_Bisque.jpeg" class="card-img-top card-img-retro img-thumbnail p-2" alt="...">
+                <div class="card-body card-body1">
+                  <h5 class="card-title">Crab Bisque</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Add to Cart</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col mb-4 d-flex justify-content-around retro-col">
+              <div class="card" style="width: 18rem;">
+                <img src="Assets/Menu/Crab_Cakes.jpeg" class="card-img-top card-img-retro img-thumbnail p-2" alt="...">
+                <div class="card-body card-body1">
+                  <h5 class="card-title">Crab Cakes</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Add to Cart</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col mb-4 d-flex justify-content-around retro-col">
+              <div class="card" style="width: 18rem;">
+                <img src="Assets/Menu/Crab_Linguine.jpeg" class="card-img-top card-img-retro img-thumbnail p-2" alt="...">
+                <div class="card-body card-body1">
+                  <h5 class="card-title">Crab Linguine</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Add to Cart</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col mb-4 d-flex justify-content-around retro-col">
+              <div class="card" style="width: 18rem;">
+                <img src="Assets/Menu/Crab_Stuffed_Mushrooms.jpeg" class="card-img-top card-img-retro img-thumbnail p-2" alt="...">
+                <div class="card-body card-body1">
+                  <h5 class="card-title">Crab Stuffed Mushrooms</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Add to Cart</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col mb-4 d-flex justify-content-around retro-col">
+              <div class="card" style="width: 18rem;">
+                <img src="Assets/Menu/Garlic_Butter_Crab_Legs.jpeg" class="card-img-top card-img-retro img-thumbnail p-2" alt="...">
+                <div class="card-body card-body1">
+                  <h5 class="card-title">Garlic Butter Crab Legs</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Add to Cart</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col mb-4 d-flex justify-content-around retro-col">
+              <div class="card" style="width: 18rem;">
+                <img src="Assets/Menu/Grilled Salmon with Lemon and Dill.jpeg" class="card-img-top card-img-retro img-thumbnail p-2" alt="...">
+                <div class="card-body card-body1">
+                  <h5 class="card-title">Grilled Salmon with Dill</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Add to Cart</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col mb-4 d-flex justify-content-around retro-col">
+              <div class="card" style="width: 18rem;">
+                <img src="Assets/Menu/Grilled Salmon.jpeg" class="card-img-top card-img-retro img-thumbnail p-2" alt="...">
+                <div class="card-body card-body1">
+                  <h5 class="card-title">Grilled Salmon</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Add to Cart</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col mb-4 d-flex justify-content-around retro-col">
+              <div class="card" style="width: 18rem;">
+                <img src="Assets/Menu/Singapore_Chilli_Crab.jpeg" class="card-img-top card-img-retro img-thumbnail p-2" alt="...">
+                <div class="card-body card-body1">
+                  <h5 class="card-title">Singapore Chilli Crab</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Add to Cart</a>
+                </div>
+              </div>
+            </div>
+<p id="table"></p>
+          </div>
+        </div>
+
+      <div class="container-fluid mb-5 mt-5 pb-5 form-container">
+        <div class="container ">
+          <div class="row mt-5 mb-5">
+            <span class="menutitle d-flex justify-content-around">BOOK A TABLE</span>
+          </div>
+          <div class="row">
+            <div class="col-lg-6 mb-5">
+              <img class="img-thumbnail" src="Assets/Background/Cook.jpg" alt="">
+            </div>
+            <div class="col-lg-6">
+              <form>
+                <div class="mb-5">
+                  <input type="text" class="form-control" aria-describedby="FirstName" placeholder="Enter Your FullName">
+                </div>
+                <div class="mb-5">
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Your Email Address">
+                </div>
+                <div class="mb-5">
+                  <input type="text" class="form-control" aria-describedby="date" placeholder="Date & Time">
+                </div>
+                <div class="mb-5">
+                  <input type="text" class="form-control" aria-describedby="MobileNumer" placeholder="Enter Your Mobile Number">
+                </div>
+                <div class="mb-5">
+                  <input type="text" class="form-control" aria-describedby="Specials" placeholder="Special Requests">
+                </div>
+                <button type="submit" class="btn formbtn">Submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid reviews-container mb-5 pb-5" id="reviews">
+
+        <div class="row mt-5 mb-5">
+          <span class="menutitle d-flex justify-content-around">REVIEWS</span>
+        </div>
+
+        <div class="row">
+          
+          <div class="col d-flex justify-content-around card-back">
+            <div class="card mb-4" style="width: 18rem;">
+              <div class="imgpacking">
+                <img src="Assets/Reviews/img1.jpg" class="card-img-top review-img" alt="...">
+              </div>
+              <div>
+                <div class="card-body card-body2">
+                  <h5 class="card-title">McKENNA GRACE</h5>
+                  <p class="card-text">Some quick example text to build on the card</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col d-flex justify-content-around border-0">
+            <div class="card  mb-4" style="width: 18rem;">
+              <div class="imgpacking">
+                <img src="Assets/Reviews/img2.jpg" class="card-img-top review-img" alt="...">
+              </div>
+              <div>
+                <div class="card-body card-body2">
+                  <h5 class="card-title">NAVEEN KUMAR</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate facilis fuga deleniti.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col d-flex justify-content-around">
+            <div class="card mb-4" style="width: 18rem;">
+              <div class="imgpacking">
+                <img src="Assets/Reviews/img3.jpg" class="card-img-top review-img" alt="...">
+              </div>
+              <div>
+                <div class="card-body card-body2">
+                  <h5 class="card-title">EMMA MAYERS</h5>
+                  <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col d-flex justify-content-around">
+            <div class="card mb-4" style="width: 18rem;">
+              <div class="imgpacking">
+                <img src="Assets/Reviews/img4.jpg" class="card-img-top review-img" alt="...">
+              </div>
+              <div>
+                <div class="card-body card-body2">
+                  <h5 class="card-title">HARIHARAN</h5>
+                  <p class="card-text">Adipisci reprehenderit nisi quod minima, quia placeat dicta, corrupti necessitatibus! Natus facere officiis labore!</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+
+    <div class="container-fluid foot-fluid" id="foot-footer">
+      <div class="container footer">
+        <div class="row">
+          <div class="col d-flex flex-column justify-content-around">
+            <p><a href="">About Us</a></p>
+            <p><a href="">Home</a></p>
+            <p><a href="">Menu</a></p>
+            <p><a href="">Contact Us</a></p>
+          </div>
+          <div class="col d-flex flex-column justify-content-around">
+            <p>24/7 Bangalore Main Road</p>
+            <p>Bangalore - 6000028</p>
+            <p>Mobile - 9009009009</p>
+            <p>bangaloreday@bangalore.com</p>
+          </div>
+          <div class="col d-flex flex-column justify-content-around">
+            <p>Opening Time</p>
+            <p>Monday - Friday</p>
+            <p>8:00Am - 5:00Pm</p>
+          </div>
+          <div class="col d-flex justify-content-around">
+            <i class="bi bi-twitter-x"></i>
+            <i class="bi bi-facebook"></i>
+            <i class="bi bi-youtube"></i>
+            <i class="bi bi-instagram"></i>
+          </div>
+        </div> 
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+  </body>
+</html>
